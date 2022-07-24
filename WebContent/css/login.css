@@ -1,0 +1,46 @@
+/* ���ڵ�¼ҳ  */	
+html,body{
+	height:100%;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+	
+body{
+	background:skyblue;
+}
+
+#div_center{
+	width:813px;
+	height:500px;
+	background:#6FB2E6 url(../images/bg_login.jpg) no-repeat;
+	position:relative;
+	left:50%;
+	top:50%;
+	margin-left:-410px;
+	margin-top:-250px;				
+}
+
+#div_inputbox{
+	width:170px;
+	height:73px;
+	position:absolute;   /*������reletive Ҳ���� */
+	top: 255px;
+	left:375px;
+}
+
+#adminName ,#password {
+	background:url(../images/bg_login_inputbox.jpg) no-repeat;
+	border:none;
+	width:125px;
+	height:17px;
+}
+#password{
+	margin-top:11px;
+}
+
+#btn_img{      /*��ť�����õ�ֱ�Ӿ��Զ�λ*/
+	position:absolute; 
+	top: 248px;
+	left:525px;		
+}
